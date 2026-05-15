@@ -1,30 +1,55 @@
-# Ian Komu - Data Scientist Extraordinaire! 🐍📊
+# Ian Komu
 
-Hey there! I'm Ian Komu, a passionate Data Scientist who loves to crunch numbers, analyze data, and draw meaningful insights. If you're looking for someone who can wrangle Python, Jupyter Notebooks, Excel, and SQL like a pro, you've come to the right place! 🚀
+DevOps Engineer & Backend Developer based in Nairobi, Kenya.
 
-## About Me 🧙‍♂️
+I build and ship backend systems and infrastructure for financial platforms across Africa — payment gateways, banking integrations, mobile money networks. Currently at **InTouch Group**, where I bridge software engineering and DevOps to keep critical fintech infrastructure running reliably across Anglophone and Francophone African markets.
 
-- 🌟 Python Enthusiast: I'm fluent in Python and can code up anything from data cleaning to machine learning models. Let's turn data into gold! 🐍✨
-- 📊 Jupyter Junkie: Jupyter Notebooks are my playground. I use them to weave stories from data, making it come alive! 📓🔥
-- 📈 Excel Wizard: Excel is my canvas, and I paint with pivot tables and charts. Data visualization is my jam! 📊🎨
-- 💾 SQL Scribe: I'm well-versed in SQL, shaping data like a master sculptor. Databases bow to my commands! 💡🔨
+---
 
-## Let's Connect! 🌐
+## What I work on
 
-- LinkedIn: [Ian Komu](https://www.linkedin.com/in/iankomu/)
-- Twitter: [@IanKomuDS](https://twitter.com/IanKomuDS)
-- Website: [www.iankomu.com](https://www.iankomu.com)
+- **Microservices & APIs** — designing and deploying services that connect payment gateways, banking systems, and mobile money platforms into cross-border workflows
+- **CI/CD & Automation** — owning pipelines end-to-end, automating deployments, aligning engineering with operations
+- **Observability** — monitoring distributed infrastructure with Grafana and Logs Explorer, catching problems before they reach clients
+- **Enterprise integrations** — middleware APIs, real-time data sync, replacing manual workflows with reliable automation
 
-## Fun Fact! 🎉
+---
 
-I firmly believe that data has a story to tell, and it's our job to be the best storytellers. Let's turn numbers into narratives that captivate and inspire! 📖✨
+## Stack
 
-## Let's Get Data-Crazy! 🎉
+**Backend**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-Feel free to explore my repositories, and if you find something interesting, don't hesitate to give it a ⭐️. Collaboration and feedback are always welcome! 👥🚀
+**Frontend**
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
 
+**Infrastructure & DevOps**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
-<!---
-IanKomu/IanKomu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+## Featured projects
+
+| Project | What it is |
+|---|---|
+| [bookstore-api](https://github.com/IanKomu/bookstore-api) | Production-grade REST API — Spring Boot 3.2, Java 21, JWT auth, Google Books + NYT integration, Docker |
+
+---
+
+## Background
+
+Started as a Spring Boot intern, moved into full-time engineering, then systems architecture, now DevOps on fintech infrastructure serving markets across Africa. Every role has been about making systems more reliable, more connected, and easier to ship.
+
+---
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ian-komu)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/IanKomu)
