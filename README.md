@@ -26,7 +26,7 @@ A cross-stack portfolio — the same three projects implemented in five language
 
 | Stack | Status |
 |---|---|
-| Spring Boot | 🔨 In progress |
+| Spring Boot | ✅ Live |
 | Go | 🔨 In progress |
 | Rust | 🔨 In progress |
 | JavaScript (Node.js) | 🔨 In progress |
