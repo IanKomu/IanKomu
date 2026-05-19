@@ -1,8 +1,7 @@
 # Ian Komu
+**DevOps Engineer & Backend Developer · Nairobi, Kenya**
 
-**DevOps Engineer & Backend Developer** · Nairobi, Kenya
-
-I build and ship backend systems and infrastructure for financial platforms across Africa — payment gateways, banking integrations, mobile money networks. Currently at **InTouch Group**, where I bridge software engineering and DevOps to keep critical fintech infrastructure running reliably across Anglophone and Francophone African markets.
+I build and ship backend systems and infrastructure for financial platforms across Africa — payment gateways, banking integrations, mobile money networks. Currently at InTouch Group, where I bridge software engineering and DevOps to keep critical fintech infrastructure running reliably across Anglophone and Francophone African markets.
 
 My background is backend-first: Spring Boot from my first internship, systems architecture at Ika Three Sixty, now DevOps on distributed fintech infrastructure. I'm building this GitHub to reflect that depth across multiple stacks.
 
@@ -50,36 +49,33 @@ The point isn't to build five versions of the same thing. Each language handles 
 
 **Backend**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ACD7?style=flat&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+Java · Spring Boot · Go · Rust · Python · Node.js
 
 **Frontend**
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
+Next.js · TypeScript · Tailwind CSS
 
 **Infrastructure & DevOps**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+Docker · PostgreSQL · Redis · Grafana
 
 ---
 
 ## Featured projects
 
-### [bookstore-api](https://github.com/IanKomu/bookstore-api) — Spring Boot
+### [bookstore-api — Spring Boot](https://github.com/IanKomu/bookstore-api)
+
 Production-grade REST API. JWT auth, role-based access, Flyway migrations, pagination. Books auto-enrich on creation — Google Books pulls cover images, descriptions, page counts, and categories. NYT bestseller lists are cached weekly and served from the local database. Built with the kind of failure handling I care about in production: enrichment never crashes a request, external API outages return graceful empty results.
 
-```
-Spring Boot 3.2 · Java 21 · PostgreSQL · Flyway · JWT · Docker · Google Books API · NYT Books API
-```
+`Spring Boot 3.2` `Java 21` `PostgreSQL` `Flyway` `JWT` `Docker` `Google Books API` `NYT Books API`
+
+---
+
+### [notify-hub — Spring Boot](https://github.com/IanKomu/notify-hub-springboot)
+
+Event-driven notification service. POST an event, get a 202 immediately — dispatch happens asynchronously on RabbitMQ consumer threads. Email and webhook channels run in parallel with exponential backoff retry (1s → 2s → 4s) and dead-letter handling for exhausted retries. Every delivery attempt is recorded, so the full history is there when something goes wrong at 2am. 61 tests across all layers.
+
+`Spring Boot 3.2` `Java 21` `RabbitMQ` `PostgreSQL` `Flyway` `Docker` `Spring Retry`
 
 ---
 
@@ -93,5 +89,4 @@ Every role has been about making systems more reliable, more connected, and fast
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ian-kimathi-komu/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/IanKomu)
+[LinkedIn](https://linkedin.com/in/ian-komu) · [GitHub](https://github.com/IanKomu)
